@@ -1,0 +1,176 @@
+body {
+    background: url("xyz.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1483px 800px;
+  } 
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    border-top-color: white;
+    border-left-color: white;
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+}
+.logo{
+    height: 80px;
+    width: 100px;
+}
+.nav-block{
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+    background: white;
+    margin-left: 300px;
+}
+.nav-item {
+    background: white;
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    color: rgb(22, 122, 229);
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(22, 122, 229);
+}
+.nav-item :hover{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(22, 122, 229);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(22, 122, 229);
+}
+.books{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 110px;
+    height: 200px;
+    width: 100%;
+}
+
+.text{
+    color: rgb(54, 87, 185);
+    font-weight: bolder;
+    font-family: "w3-serif";
+    font-size: 60px;
+    padding-top: 180px;
+    padding-left: 450px;
+    text-shadow:  0 3px #24145b;
+    background-image: url("abc.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1486px 400px;
+}
+.main{
+    display: grid;
+    grid-template-columns:  300px 300px 300px 300px;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 80px;
+    column-gap: 50px;
+}
+.block1{
+    display: grid;
+    grid-template-rows: 100px 100px 50px;
+    row-gap: 30px;
+    border-style: solid;
+    border-width: 0px;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 30px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+}
+.block2{
+    display: grid;
+    grid-template-rows: 100px 100px 50px;
+    row-gap: 30px;
+    border-style: solid;
+    padding: 30px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    border-width: 0px;
+    justify-content: center;
+    border-radius: 2px;
+}
+.block3{
+    display: grid;
+    grid-template-rows: 100px 100px 50px;
+    row-gap: 30px;
+    border-style: solid;
+    padding: 30px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    border-width: 0px;
+    justify-content: center;
+    border-radius: 2px;
+}
+.block4{
+    display: grid;
+    grid-template-rows: 100px 100px 50px;
+    row-gap: 30px;
+    border-style: solid;
+    padding: 30px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    border-width: 0px;
+    justify-content: center;
+    border-radius: 2px;
+}
+.months{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(234, 236, 238);
+    text-shadow: 1px 1px 2px rgb(12, 12, 12), 0 0 25px rgb(106, 105, 105), 0 0 5px rgb(102, 102, 111);
+}
+.price{
+    font-style: italic;
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+@keyframes now{
+    from{color: red;}
+    to{color: yellow;}
+}
+.buy {
+    padding-left: 40px;
+}
+.buy a {
+    padding: 10px;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    border-style: hidden;
+    border-radius: 2000px;
+    background-color: rgb(151, 150, 151);
+    text-decoration: none;
+    padding-left: 4px;
+    animation: now 1s infinite reverse;
+
+}
+.buy :hover{
+    background-color: black;
+    color: red;
+    
+}
